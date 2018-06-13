@@ -54,14 +54,38 @@
 		ACF94F4E20D0AB44000D8BC3 /* ml-predict-image */ = {
 			isa = PBXGroup;
 			children = (
+				ACF94F6320D0AB73000D8BC3 /* Resources */,
+				ACF94F6220D0AB60000D8BC3 /* View */,
+				ACF94F6120D0AB57000D8BC3 /* Controller */,
 				ACF94F4F20D0AB44000D8BC3 /* AppDelegate.swift */,
-				ACF94F5120D0AB44000D8BC3 /* ViewController.swift */,
 				ACF94F5320D0AB44000D8BC3 /* Main.storyboard */,
 				ACF94F5620D0AB46000D8BC3 /* Assets.xcassets */,
 				ACF94F5820D0AB46000D8BC3 /* LaunchScreen.storyboard */,
 				ACF94F5B20D0AB46000D8BC3 /* Info.plist */,
 			);
 			path = "ml-predict-image";
+			sourceTree = "<group>";
+		};
+		ACF94F6120D0AB57000D8BC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACF94F5120D0AB44000D8BC3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACF94F6220D0AB60000D8BC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACF94F6320D0AB73000D8BC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
