@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACC3FEA120D1F1360034AF4F /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3FEA020D1F1360034AF4F /* ImageCell.swift */; };
+		ACC3FEA320D1F2DE0034AF4F /* FoodItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3FEA220D1F2DE0034AF4F /* FoodItems.swift */; };
+		ACC3FEA520D1F4DF0034AF4F /* GridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3FEA420D1F4DF0034AF4F /* GridFlowLayout.swift */; };
 		ACF94F5020D0AB44000D8BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94F4F20D0AB44000D8BC3 /* AppDelegate.swift */; };
-		ACF94F5220D0AB44000D8BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94F5120D0AB44000D8BC3 /* ViewController.swift */; };
+		ACF94F5220D0AB44000D8BC3 /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94F5120D0AB44000D8BC3 /* ImageVC.swift */; };
 		ACF94F5520D0AB44000D8BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF94F5320D0AB44000D8BC3 /* Main.storyboard */; };
 		ACF94F5720D0AB46000D8BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF94F5620D0AB46000D8BC3 /* Assets.xcassets */; };
 		ACF94F5A20D0AB46000D8BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF94F5820D0AB46000D8BC3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACC3FEA020D1F1360034AF4F /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		ACC3FEA220D1F2DE0034AF4F /* FoodItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItems.swift; sourceTree = "<group>"; };
+		ACC3FEA420D1F4DF0034AF4F /* GridFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFlowLayout.swift; sourceTree = "<group>"; };
 		ACF94F4C20D0AB44000D8BC3 /* ml-predict-image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ml-predict-image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF94F4F20D0AB44000D8BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF94F5120D0AB44000D8BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF94F5120D0AB44000D8BC3 /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
 		ACF94F5420D0AB44000D8BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF94F5620D0AB46000D8BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF94F5920D0AB46000D8BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +75,7 @@
 		ACF94F6120D0AB57000D8BC3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ACF94F5120D0AB44000D8BC3 /* ViewController.swift */,
+				ACF94F5120D0AB44000D8BC3 /* ImageVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -77,6 +83,8 @@
 		ACF94F6220D0AB60000D8BC3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACC3FEA020D1F1360034AF4F /* ImageCell.swift */,
+				ACC3FEA420D1F4DF0034AF4F /* GridFlowLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -84,6 +92,7 @@
 		ACF94F6320D0AB73000D8BC3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ACC3FEA220D1F2DE0034AF4F /* FoodItems.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -159,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF94F5220D0AB44000D8BC3 /* ViewController.swift in Sources */,
+				ACC3FEA320D1F2DE0034AF4F /* FoodItems.swift in Sources */,
+				ACF94F5220D0AB44000D8BC3 /* ImageVC.swift in Sources */,
+				ACC3FEA520D1F4DF0034AF4F /* GridFlowLayout.swift in Sources */,
 				ACF94F5020D0AB44000D8BC3 /* AppDelegate.swift in Sources */,
+				ACC3FEA120D1F1360034AF4F /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
