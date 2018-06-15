@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC18BBFE20D3477F00714CED /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC18BBFD20D3477E00714CED /* MobileNet.mlmodel */; };
 		ACC3FEA120D1F1360034AF4F /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3FEA020D1F1360034AF4F /* ImageCell.swift */; };
 		ACC3FEA320D1F2DE0034AF4F /* FoodItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3FEA220D1F2DE0034AF4F /* FoodItems.swift */; };
 		ACC3FEA520D1F4DF0034AF4F /* GridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3FEA420D1F4DF0034AF4F /* GridFlowLayout.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC18BBFD20D3477E00714CED /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		ACC3FEA020D1F1360034AF4F /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		ACC3FEA220D1F2DE0034AF4F /* FoodItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItems.swift; sourceTree = "<group>"; };
 		ACC3FEA420D1F4DF0034AF4F /* GridFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFlowLayout.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		ACF94F6320D0AB73000D8BC3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC18BBFD20D3477E00714CED /* MobileNet.mlmodel */,
 				ACC3FEA220D1F2DE0034AF4F /* FoodItems.swift */,
 			);
 			path = Resources;
@@ -170,6 +173,7 @@
 			files = (
 				ACC3FEA320D1F2DE0034AF4F /* FoodItems.swift in Sources */,
 				ACF94F5220D0AB44000D8BC3 /* ImageVC.swift in Sources */,
+				AC18BBFE20D3477F00714CED /* MobileNet.mlmodel in Sources */,
 				ACC3FEA520D1F4DF0034AF4F /* GridFlowLayout.swift in Sources */,
 				ACF94F5020D0AB44000D8BC3 /* AppDelegate.swift in Sources */,
 				ACC3FEA120D1F1360034AF4F /* ImageCell.swift in Sources */,
